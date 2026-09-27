@@ -79,7 +79,7 @@
 
     <!-- KONFIGURASI URL GAS (Ganti dengan URL Deployment Anda) -->
     <script>
-        const GAS_URL = "https://script.google.com/macros/s/AKfycbwN-1d32rwLF7CYXeiXXwncU9NocQ4jnoJXMZtEyD3RfjUbI6F3m6tWYf2UC2kEQD1j/exec";
+        const GAS_URL = "https://script.google.com/macros/s/AKfycbzpGcGgmYaDsFFLt4pIVOpzJiUVxHho1q__oTTK3h17y67RJKvqhIgY4YwfxVLdy1E4/exec";
     </script>
 
     <div class="main-container">
@@ -467,7 +467,7 @@
                 error: function(err) {
                     Swal.close();
                     // Local fallback demo mode if GAS URL not configured
-                    if (GAS_URL.includes('https://script.google.com/macros/s/AKfycbwN-1d32rwLF7CYXeiXXwncU9NocQ4jnoJXMZtEyD3RfjUbI6F3m6tWYf2UC2kEQD1j/exec')) {
+                    if (GAS_URL.includes('https://script.google.com/macros/s/AKfycbzpGcGgmYaDsFFLt4pIVOpzJiUVxHho1q__oTTK3h17y67RJKvqhIgY4YwfxVLdy1E4/exec')) {
                         console.warn("GAS URL belum disetting. Menjalankan Mode Simulasi Lokal.");
                         handleLocalFallback(action, data, callback);
                     } else {
