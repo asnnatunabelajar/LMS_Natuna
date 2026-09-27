@@ -467,7 +467,7 @@
                 error: function(err) {
                     Swal.close();
                     // Local fallback demo mode if GAS URL not configured
-                    if (GAS_URL.includes('YOUR_SCRIPT_ID_HERE')) {
+                    if (GAS_URL.includes('https://script.google.com/macros/s/AKfycbwN-1d32rwLF7CYXeiXXwncU9NocQ4jnoJXMZtEyD3RfjUbI6F3m6tWYf2UC2kEQD1j/exec')) {
                         console.warn("GAS URL belum disetting. Menjalankan Mode Simulasi Lokal.");
                         handleLocalFallback(action, data, callback);
                     } else {
